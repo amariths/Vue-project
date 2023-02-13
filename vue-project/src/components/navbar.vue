@@ -9,26 +9,24 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a id="navbar" class="navbar-brand" href="#">Navbar</a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <p v-for="user in users" :key="user.id"></p>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul id="link" class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <RouterLink class="nav-link" to="/">Hem</RouterLink>
+            <RouterLink id="link" class="nav-link" to="/">Hem</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink class="nav-link" to="/about">About</RouterLink>
+            <RouterLink id="link" class="nav-link" to="/about">About</RouterLink>
         </li>
 
         <li class="nav-item">
-            <RouterLink class="nav-link" to="/user/kontakt">kontakt</RouterLink>
+            <RouterLink id="link" class="nav-link" to="/user/kontakt">kontakt</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink class="nav-link" to="/user/user">user</RouterLink>
+            <RouterLink id="link" class="nav-link" to="/user/user">user</RouterLink>
         </li>
-        <li class="nav-item">
-            <RouterLink class="nav-link" to="/user/user">user</RouterLink>
-        </li>
+
 
       </ul>
 
@@ -73,14 +71,28 @@ export default {
     font-size: 20px;
     font-weight: 500;
     position: relative;
-    top: 20px;
+    top: 10px;
     right: 50px;
+
 }
 
 #remove {
     position: relative;
-    top: 13px;
+    top: px;
     right: 60px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+#navbar {
+    color: white;
+}
+
+#link {
+    color: white;
 }
 
 </style>

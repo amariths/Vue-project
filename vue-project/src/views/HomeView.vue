@@ -2,6 +2,7 @@
 
 import apiComps from '../components/apicomp.vue'
 import navbar from '../components/navbar.vue'
+import annons from '../components/annons.vue'
 
 
 
@@ -11,6 +12,14 @@ import navbar from '../components/navbar.vue'
 
 
 
+
+
+
+
+
+<annons>
+
+</annons>
 
 <div id="search">
     <form id="newsearch" class="d-flex" role="search" @submit.prevent="getData">
@@ -22,12 +31,6 @@ import navbar from '../components/navbar.vue'
 </div>
 
 
-
-
-
-<div>
-<Navbar v-for="comp in comps" :key="comp.id" :comp="comp" />
-</div>
 
 <div id="offer">
     <api-comps v-for="comp in comps" :key="comp.id" :comp="comp" @addedproduct="addname"/>
@@ -118,6 +121,7 @@ export default {
 #search {
 margin-left: 350px;
 margin-right: 400px;
+
 }
 
 #newbutton {
@@ -129,6 +133,8 @@ margin-right: 400px;
 }
 
 #newsearch{
+    position: relative;
+    
 
 }
 
@@ -137,14 +143,12 @@ margin-right: 400px;
 
   position: relative;
   text-align: center;
+  bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 
 width: auto;
 height: 500px;
-
-
-
 
 
 }

@@ -11,7 +11,7 @@
     <h4 class="card-price">{{comp.price}}</h4>
     <a @click="addproduct(comp.name); $store.commit('increment')" class="btn btn-primary">lägg till kundvagn</a>
 
-    
+
   </div>
 </div>
 
