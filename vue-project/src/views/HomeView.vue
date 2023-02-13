@@ -116,6 +116,7 @@ export default {
     margin-bottom: 50px;
 
 
+
 }
 
 #search {
@@ -132,11 +133,7 @@ margin-right: 400px;
     left: 860px;
 }
 
-#newsearch{
-    position: relative;
-    
 
-}
 
 #annons {
     background-color: black;
@@ -152,4 +149,8 @@ height: 500px;
 
 
 }
+
+
+
+
 </style>

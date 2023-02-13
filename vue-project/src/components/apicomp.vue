@@ -3,13 +3,13 @@
 
 
 <div id="offer" >
-<div class="card" style="width: 18rem;">
+<div id="offer2" class="card" >
   <img :src="comp.img" class="card-img-top">
   <div id="price"  class="card-body">
     <h5 class="card-title">{{comp.name}}</h5>
     <p class="card-text">{{ comp.info }}</p>
     <h4 class="card-price">{{comp.price}}</h4>
-    <a @click="addproduct(comp.name); $store.commit('increment')" class="btn btn-primary">lägg till kundvagn</a>
+    <a id="button" @click="addproduct(comp.name); $store.commit('increment')" class="btn">lägg till kundvagn</a>
 
 
   </div>
@@ -50,6 +50,30 @@ export default {
 </script>
 
 <style>
+
+#offer2 {
+    background-color: #29363F;
+}
+#price {
+    color: white;
+}
+
+#button {
+    background-color: #E50007CC;
+    color: white;
+}
+
+
+.card-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 10;
+font-size: 15px;
+line-height: 18px;
+
+
+}
+
 
 
 

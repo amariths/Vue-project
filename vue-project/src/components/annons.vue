@@ -25,19 +25,16 @@
     <style>
 
 
-#annons2 {
-position: absolute;
-left: 500px;
-top: 25px;
-height: 430px;
-box-shadow: inset 10px 10px 50px red;
 
 
-}
+
+
 
 #annons {
 
 }
+
+
 
 
 
