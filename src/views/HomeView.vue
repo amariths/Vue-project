@@ -56,7 +56,7 @@ export default {
     },
 
     async fetchData() {
-      const response = await axios.get("spa.json");
+      const response = await axios.get("/public/spa.json");
       const result = await response.data;
       this.comps = result;
       this.compsdata = result;
