@@ -24,7 +24,7 @@
             <RouterLink id="link" class="nav-link" to="/user/kontakt">kontakt</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink id="link" class="nav-link" to="/user/user">user</RouterLink>
+            <RouterLink id="link" class="nav-link" to="/user/u">user</RouterLink>
         </li>
 
 
