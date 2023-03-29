@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./index-86eb81fc.js";const r={},n={id:"om"};function o(s,_){return t(),a("h1",n,"affärens hemsida är fortfarande i arbete men det går att köpa. har ni några frågor så är det bara kontakta oss i kontakt länk")}const i=e(r,[["render",o]]);export{i as default};
